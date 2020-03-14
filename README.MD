@@ -42,7 +42,8 @@ A ideia do desafio é mostrar que para cotar um projeto, é necessário um pouco
 
 Wireframe: https://wireframe.cc/pro/pp/115e33462323006
 
-Crie uma pagina usando o conceito do wireframe acima com os seguintes elementos:
+* Crie um fork deste repositório e trabalhe os arquivos da pasta "src".
+* Crie uma pagina usando o conceito do wireframe acima com os seguintes elementos:
 
 - Header
   1. Logo da He4rt Developers
