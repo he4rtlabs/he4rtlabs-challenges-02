@@ -70,7 +70,7 @@ Crie uma pagina usando o conceito do wireframe acima com os seguintes elementos:
              "devHours": 14,
              "testHours": 3
          },
-         {~
+         {
              "feature": "User CRUD",
              "devHours": 14,
              "testHours": 3
@@ -87,8 +87,8 @@ Crie uma pagina usando o conceito do wireframe acima com os seguintes elementos:
      [
         {
             "feature": "string",
-            "devHours": int,
-            "testHours": int
+            "devHours": 0,
+            "testHours": 0
         },
         ...
      ]
