@@ -1,4 +1,4 @@
-# Projeto 002 - Planilha de cotação para Freelas (2/3)
+# Projeto 002 - Planilha de cotação para Freelas (2/2)
 
 Uma planilha com a cotação de todo o projeto a ser desenvolvido para melhor visualização do cliente.
 
