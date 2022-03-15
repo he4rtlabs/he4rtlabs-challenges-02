@@ -2,3 +2,12 @@ body {
   width: 100vw;
   font-size: 62.5%;
 }
+
+.content {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns:  3fr 1fr;
+  gap: 20px;
+}

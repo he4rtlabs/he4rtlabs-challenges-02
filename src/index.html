@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/global.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://unpkg.com/feather-icons"></script>
   </head>
   <body>
     <!--
@@ -18,12 +19,99 @@
       <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src="assets/images/undefined - Imgur.png" class="img-thumbnail" alt="Logo Heart Developers">
+            <img src="assets/images/heart-roxo-removebg.png" class="logo" alt="Logo Heart Developers">
             <h1> - Planilha de cotação para Freelas</h1>
           </a>
         </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Inserir</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active"  href="#">Apagar</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Importar</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Exportar</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Valor Hora" aria-label="Search" required>
+                <button class="btn btn-outline-success" type="submit">Valor hora</button>
+              </form>
+            </div>
+          </div>
+        </nav>
       </nav>
     </header>
+
+    <div class="content">
+      <main class="main">
+        <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+    <aside class="aside">
+      <ul class="list-group">
+        <li class="list-group-item">An item</li>
+        <li class="list-group-item">A second item</li>
+        <li class="list-group-item">A third item</li>
+        <li class="list-group-item">A fourth item</li>
+        <li class="list-group-item">And a fifth one</li>
+      </ul>
+    </aside>
+  </div>
+  <footer class="footer">
+    <div class="content">
+      <a href="https://www.facebook.com/jeanSantos.a2/" target="_blank">
+        <img src="assets/svgs/facebook.svg" alt="Facebook" srcset="">
+      </a>
+      <a href="https://www.instagram.com/jean.at2/" target="_blank">
+        <img src="assets/svgs/instagram.svg" alt="Instagram" srcset="">
+      </a>
+      <a href="https://www.linkedin.com/in/jeandossantosmd/" target="_blank">
+        <img src="assets/svgs/linkedin.svg" alt="Linkedin" srcset="">
+      </a>
+      <a href="https://twitter.com/jean_he4rt" target="_blank">
+        <img src="assets/svgs/twitter.svg" alt="Twitter" srcset="">
+      </a>
+    </div>
+  </footer>
   </body>
   <script src="assets/js/main.js"></script>
 </html>
