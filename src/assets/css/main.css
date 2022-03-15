@@ -2,6 +2,9 @@
   width: 200px;
   height: 68px;
 }
+.content {
+  height: 100%;
+}
 
 .container-fluid {
   width: 90% !important;
@@ -30,4 +33,27 @@
 
 .d-flex .btn {
   width: 15% !important;
+}
+
+.footer {
+  width: 100%;
+  height: 80px;
+  display:flex;
+  position: absolute;
+  background-color: #F8F9FA;
+  bottom: 0 !important;
+}
+
+.footer > .content {
+  width: auto;
+  display: flex;
+  margin: 0 auto;
+  justify-items: center;
+  align-items: center;
+}
+
+.footer > .content > img {
+  width: 24px;
+  height: 24px;
+  align-items: center;
 }
