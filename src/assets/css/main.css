@@ -1,11 +1,12 @@
-.img-thumbnail {
+.logo {
   width: 200px;
-  height: 10px;
+  height: 68px;
 }
 
 .container-fluid {
   width: 90% !important;
   margin: 0 auto;
+  margin-left: 108px !important;
 }
 
 .navbar-brand {
@@ -13,4 +14,20 @@
   display: flex;
   align-items: center;
   gap: 30px;
+}
+
+.navbar-expand-lg {
+  width: 100% !important;
+  display: flex;
+  justify-content: space-between !important;
+  margin-top: 20px;
+}
+
+.d-flex  {
+  width: 50% !important;
+  height: 50px;
+}
+
+.d-flex .btn {
+  width: 15% !important;
 }
