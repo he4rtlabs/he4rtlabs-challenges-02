@@ -1,0 +1,10 @@
+
+main > .content {
+  display: flex;
+  flex-direction:  column;
+}
+
+main > .content .btn{
+  width: 150px;
+  height: 50px;
+}

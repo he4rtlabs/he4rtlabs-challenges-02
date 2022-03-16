@@ -11,3 +11,13 @@ let features = [
 // alert("He4rtDevs <3");
 
 // Dica: faça o layout e depois pense em como vai funcionar o script.
+
+
+insert = () => {
+  var myModal = document.getElementById('staticBackdrop')
+  var myInput = document.getElementById('myInput')
+
+  myModal.addEventListener('shown.bs.modal', function () {
+    myInput.focus()
+  })
+}
